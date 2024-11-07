@@ -15,11 +15,11 @@ def vcode = (int) (((new Date().getTime() / 1000) - 1546297200) / 10)
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
-    packagingOptions {
-        jniLibs {
-            excludes += ['lib/*/libhermes*.so']
-        }
-    }
+//     packagingOptions {
+//         jniLibs {
+//             excludes += ['lib/*/libhermes*.so']
+//         }
+//     }
 
 
     defaultConfig {
